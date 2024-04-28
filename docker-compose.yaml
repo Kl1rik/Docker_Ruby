@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  ror-app:
+    image: ubuntucontainer350/ruby-ror-app:sqlite3v3
+    container_name: ror-container
+    ports:
+      - 5555:5000
+    
